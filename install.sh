@@ -3,7 +3,7 @@
 if [ `whoami` != 'root' ]; then
   echo "Requires root"
   exit 1
-done
+fi
 
 apt-get update
 apt-get install -y \
