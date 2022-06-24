@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 if [ `whoami` != 'root' ]; then
   echo "Requires root"
   exit 1
